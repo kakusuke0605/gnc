@@ -1,0 +1,81 @@
+-- BP 7.1.6 content: InstanceStateMachine syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO SM_ISM
+	VALUES ("c0c74364-95af-42df-a665-9e2fd1a7f507",
+	"44c11680-c695-4cd0-8c5c-49bc06b14528");
+INSERT INTO SM_SM
+	VALUES ("c0c74364-95af-42df-a665-9e2fd1a7f507",
+	'',
+	0);
+INSERT INTO SM_MOORE
+	VALUES ("c0c74364-95af-42df-a665-9e2fd1a7f507");
+INSERT INTO SM_LEVT
+	VALUES ("26caf769-2f00-4ee1-8664-83ff862aa1c5",
+	"c0c74364-95af-42df-a665-9e2fd1a7f507",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO SM_SEVT
+	VALUES ("26caf769-2f00-4ee1-8664-83ff862aa1c5",
+	"c0c74364-95af-42df-a665-9e2fd1a7f507",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO SM_EVT
+	VALUES ("26caf769-2f00-4ee1-8664-83ff862aa1c5",
+	"c0c74364-95af-42df-a665-9e2fd1a7f507",
+	"00000000-0000-0000-0000-000000000000",
+	1,
+	'start',
+	0,
+	'',
+	'Controller1',
+	'');
+INSERT INTO SM_LEVT
+	VALUES ("b8dcfa69-53b7-440a-8ceb-a235f197459c",
+	"c0c74364-95af-42df-a665-9e2fd1a7f507",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO SM_SEVT
+	VALUES ("b8dcfa69-53b7-440a-8ceb-a235f197459c",
+	"c0c74364-95af-42df-a665-9e2fd1a7f507",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO SM_EVT
+	VALUES ("b8dcfa69-53b7-440a-8ceb-a235f197459c",
+	"c0c74364-95af-42df-a665-9e2fd1a7f507",
+	"00000000-0000-0000-0000-000000000000",
+	2,
+	'ready',
+	0,
+	'',
+	'Controller2',
+	'');
+INSERT INTO GD_MD
+	VALUES ("4b6da17d-a533-49f4-b82d-9fd4e7c9010f",
+	8,
+	"c0c74364-95af-42df-a665-9e2fd1a7f507",
+	40,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'4.1.17',
+	'gnc::Library::Control::Control::Controller::Instance State Machine');
+INSERT INTO DIM_DIA
+	VALUES ("4b6da17d-a533-49f4-b82d-9fd4e7c9010f",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_OBJ_PROXY
+	VALUES ("44c11680-c695-4cd0-8c5c-49bc06b14528",
+	'Controller',
+	1,
+	'Controller',
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'../Controller.xtuml');
