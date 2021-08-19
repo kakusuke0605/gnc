@@ -39,7 +39,6 @@ INSERT INTO S_SYNC
 	'setup',
 	'',
 	'create object instance ctrl of Controller;
-generate Controller1:''start'' to ctrl;
 ',
 	"ba5eda7a-def5-0000-0000-000000000000",
 	1,
@@ -65,6 +64,23 @@ generate Controller3: ''halt'' to ctrl;
 	0);
 INSERT INTO PE_PE
 	VALUES ("30d4e827-68d1-4e51-a456-a90045236943",
+	1,
+	"c266a8d5-aa61-43f4-9d01-7e2baedb603e",
+	"00000000-0000-0000-0000-000000000000",
+	1);
+INSERT INTO S_SYNC
+	VALUES ("848f46a6-f096-45ae-9161-4a9268cc27bd",
+	"00000000-0000-0000-0000-000000000000",
+	'start',
+	'',
+	'create object instance ctrl of Controller;
+generate Controller1: ''start'' to ctrl;',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	0);
+INSERT INTO PE_PE
+	VALUES ("848f46a6-f096-45ae-9161-4a9268cc27bd",
 	1,
 	"c266a8d5-aa61-43f4-9d01-7e2baedb603e",
 	"00000000-0000-0000-0000-000000000000",
