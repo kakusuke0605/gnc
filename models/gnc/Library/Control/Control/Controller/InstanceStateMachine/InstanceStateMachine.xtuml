@@ -318,7 +318,7 @@ INSERT INTO SM_ACT
 	VALUES ("3a5b4840-fdec-4672-bc5d-dd58ef9eafb7",
 	"c0c74364-95af-42df-a665-9e2fd1a7f507",
 	1,
-	'Port1::takeoff( alt:5 );
+	'Port1::takeoff( alt:1 );
 Port1::set_heading( heading:0 );',
 	'',
 	0);
@@ -336,7 +336,7 @@ INSERT INTO SM_ACT
 	'select any ctrl from instances of Controller;
 select one wp related by self->Waypoint[R3.''is flying to''];
 Port1::set_destination( x:wp.x, y:wp.y, z:wp.z );
-Port1::set_heading( heading:0 );
+Port1::set_heading( heading:wp.heading );
 
 select one next_wp related by wp->Waypoint[R2.''follows''];
 if (not_empty next_wp)
@@ -456,7 +456,7 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("12647062-2e4a-4f80-a35f-66a00118de71",
 	"c0c74364-95af-42df-a665-9e2fd1a7f507",
-	3,
+	1,
 	'',
 	'',
 	0);
