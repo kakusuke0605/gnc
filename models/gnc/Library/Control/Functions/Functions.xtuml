@@ -78,15 +78,15 @@ wp5.heading = -38;
 relate wp4 to wp5 across R2.''follows'';
 
 create object instance wp6 of Waypoint;
-wp6.x = 6;
-wp6.y = 6;
+wp6.x = 4;
+wp6.y = 4;
 wp6.z = 1;
 wp6.heading = -38;
 relate wp5 to wp6 across R2.''follows'';
 
 create object instance wp7 of Waypoint;
-wp7.x = 6;
-wp7.y = 6;
+wp7.x = 4;
+wp7.y = 4;
 wp7.z = 1;
 wp7.heading = -90;
 relate wp6 to wp7 across R2.''follows'';
