@@ -148,14 +148,14 @@ wp15.heading= 60;
 relate wp14 to wp15 across R2.''follows'';
 
 create object instance wp16 of Waypoint;
-wp16.x = 0;
+wp16.x = 0.1;
 wp16.y = -11;
 wp16.z = 1;
 wp16.heading= 60;
 relate wp15 to wp16 across R2.''follows'';
 
 create object instance wp17 of Waypoint;
-wp17.x = 0;
+wp17.x = 0.1;
 wp17.y = -11;
 wp17.z = 1;
 wp17.heading= 0;
