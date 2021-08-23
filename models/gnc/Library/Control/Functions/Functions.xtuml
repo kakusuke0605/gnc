@@ -42,7 +42,7 @@ INSERT INTO S_SYNC
 generate Controller1: ''start'' to ctrl;
 
 create object instance wp1 of Waypoint;
-wp1.x = -5;
+wp1.x = -4.5;
 wp1.y = 13.5;
 wp1.z = 1;
 wp1.heading = 0;
@@ -50,7 +50,7 @@ relate ctrl to wp1 across R1.''begin with'';
 relate ctrl to wp1 across R3.''is flying to'';
 
 create object instance wp2 of Waypoint;
-wp2.x = -5;
+wp2.x = -4.5;
 wp2.y = 13.5;
 wp2.z = 1;
 wp2.heading = 45;
@@ -78,8 +78,8 @@ wp5.heading = -30;
 relate wp4 to wp5 across R2.''follows'';
 
 create object instance wp6 of Waypoint;
-wp6.x = 0;
-wp6.y = 0;
+wp6.x = 7;
+wp6.y = 5;
 wp6.z = 1;
 wp6.heading = 120;
 relate wp5 to wp6 across R2.''follows'';
@@ -142,24 +142,17 @@ relate wp13 to wp14 across R2.''follows'';
 
 create object instance wp15 of Waypoint;
 wp15.x = 10;
-wp15y = -22;
-wp15z = 1;
-wp15.heading= 60;
+wp15.y = -22;
+wp15.z = 5;
+wp15.heading= 0;
 relate wp14 to wp15 across R2.''follows'';
 
 create object instance wp16 of Waypoint;
-wp16.x = 0.1;
-wp16.y = -11;
-wp16.z = 1;
-wp16.heading= 60;
+wp16.x = 0;
+wp16.y = 0;
+wp16.z = 5;
+wp16.heading = 0;
 relate wp15 to wp16 across R2.''follows'';
-
-create object instance wp17 of Waypoint;
-wp17.x = 0.1;
-wp17.y = -11;
-wp17.z = 1;
-wp17.heading= 0;
-relate wp16 to wp17 across R2.''follows'';
 
 
 
