@@ -80,7 +80,7 @@ relate wp4 to wp5 across R2.''follows'';
 create object instance wp6 of Waypoint;
 wp6.x = 0;
 wp6.y = 0;
-wp6.z = 5;
+wp6.z = 1;
 wp6.heading = 120;
 relate wp5 to wp6 across R2.''follows'';
 
@@ -92,14 +92,14 @@ wp7.heading = 120;
 relate wp6 to wp7 across R2.''follows'';
 
 create object instance wp8 of Waypoint;
-wp8.x = -1;
+wp8.x = -1.5;
 wp8.y = -7;
 wp8.z = 1;
 wp8.heading = 70;
 relate wp7 to wp8 across R2.''follows'';
 
 create object instance wp9 of Waypoint;
-wp9.x = -1;
+wp9.x = -1.5;
 wp9.y = -7;
 wp9.z = 1;
 wp9.heading = 180;
@@ -123,26 +123,26 @@ create object instance wp12 of Waypoint;
 wp12.x = 2;
 wp12.y = -15;
 wp12.z = 1;
-wp12.heading= 225;
+wp12.heading= 190;
 relate wp11 to wp12 across R2.''follows'';
 
 create object instance wp13 of Waypoint;
 wp13.x = 10;
-wp13.y = -21.5;
+wp13.y = -22;
 wp13.z = 1;
-wp13.heading= 225;
+wp13.heading= 190;
 relate wp12 to wp13 across R2.''follows'';
 
 create object instance wp14 of Waypoint;
 wp14.x = 10;
-wp14.y = -21.5;
+wp14.y = -22;
 wp14.z = 1;
-wp14.heading= 200;
+wp14.heading= 260;
 relate wp13 to wp14 across R2.''follows'';
 
 create object instance wp15 of Waypoint;
 wp15.x = 10;
-wp15y = -21.5;
+wp15y = -22;
 wp15z = 1;
 wp15.heading= 60;
 relate wp14 to wp15 across R2.''follows'';
